@@ -1,4 +1,5 @@
 #!/bin/bash
+cd $(dirname $0)
 
 demoFun(){
     if [ $1 -eq 1 ]; then
